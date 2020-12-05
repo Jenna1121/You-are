@@ -1,4 +1,320 @@
-h1 {
-background-color: yellow;
-text-align: right;
+h1{
+text-align: center;
+font-family: arial,serif;
+font-size: 32px;
 }
+
+
+@media screen and (min-width:992px){
+
+.container{
+  position:relative;
+  left: 3%;
+  top:20px;
+  align-self: center;
+  width: 992px;
+  height: 300px;
+  align-content: center;
+  /*background-color:orange;*/
+  }
+.section1{
+position:absolute;
+left:2%;
+border:1px solid black;
+background-color: lightgray;
+height: 105px;
+width:30%;
+}
+
+.section2{
+position:absolute;
+left:35%;
+border:1px solid black;
+background-color: lightgray;
+height: 105px;
+width:30%;
+}
+.section3{
+position:absolute;
+right:2%;
+border:1px solid black;
+background-color: lightgray;
+height: 105px;
+width:30%;
+}
+
+/* for section title */
+
+.section1 h2{
+  position:absolute;
+  right:0px;
+  top:-20px;
+  border:1px solid black;
+  background-color: red;
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+  font-family:sans-serif,arial;
+  font-size: 24px;
+
+}
+.section2 h3{
+  position:absolute;
+  right:0px;
+  top:-25px;
+  border:1px solid black;
+  background-color: blue;
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+  font-family:sans-serif,arial;
+  font-size: 24px;
+  color: white;
+
+}
+.section3 h4{
+  position:absolute;
+  right:0px;
+  top:-33px;
+  border:1px solid black;
+  background-color: green;
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+  font-family:sans-serif,arial;
+  font-size: 24px;
+
+}
+
+ #p1,#p2,#p3{
+   /*margin-left:3px;*/
+  position:absolute;
+  top:10px;
+  width: 250px;
+  padding:10px;
+  font-family:monospace,verdana;
+  font-size:18px;
+ }
+
+} /* end of \@media for pc viewing*/
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+
+  .container{
+    position:relative;
+    left: 3%;;
+    top:20px;
+    align-self: center;
+    width: 768px;
+    height: 400px;
+    align-content: center;
+    /*background-color:orange;*//* to check the alignment for screen size*/
+
+    }
+
+  .section1{
+  position:absolute;
+  left:0%;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:48%;
+  }
+
+  .section2{
+  position:absolute;
+  right:0;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:48%;
+  }
+  .section3{
+  position:absolute;
+  right:0%;
+  top:210px;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:100%;
+  }
+
+  /* for section title */
+
+  .section1 h2{
+    position:absolute;
+    right:0px;
+    top:-20px;
+    border:1px solid black;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+
+  }
+  .section2 h3{
+    position:absolute;
+    right:0px;
+    top:-25px;
+    border:1px solid black;
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+    color: white;
+
+  }
+  .section3 h4{
+    position:absolute;
+    right:0px;
+    top:-33px;
+    border:1px solid black;
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+
+  }
+
+   #p1,#p2{
+     /*margin-left:3px;*/
+    position:absolute;
+    top:10px;
+    width: 350px;
+    padding:10px;
+    font-family:monospace,verdana;
+    font-size:18px;
+   }
+
+   #p3{
+     /*margin-left:3px;*/
+    position:absolute;
+    top:10px;
+    width: 760px;
+    padding:10px;
+    font-family:monospace,verdana;
+    font-size:18px;
+   }
+
+
+} /*end of @media for tablet viewing*/
+
+@media screen and (max-width:767px){
+
+  .container{
+    position:relative;
+    left: 3%;
+    top:20px;
+    align-self: center;
+    width: 500px;
+    height: 600px;
+    align-content: center;
+    /*background-color:orange; *//* to check the alignment for screen size*/
+    }
+
+  .section1{
+  position:absolute;
+  left:10%;
+  top:10%;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:80%;
+  }
+
+  .section2{
+  position:absolute;
+  left:10%;
+  top:40%;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:80%;
+  }
+  .section3{
+  position:absolute;
+  left:10%;
+  top:70%;
+  border:1px solid black;
+  background-color: lightgray;
+  height: 120px;
+  width:80%;
+  }
+
+  /* for section title */
+
+  .section1 h2{
+    position:absolute;
+    right:0px;
+    top:-20px;
+    border:1px solid black;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+
+  }
+  .section2 h3{
+    position:absolute;
+    right:0px;
+    top:-25px;
+    border:1px solid black;
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+    color: white;
+
+  }
+  .section3 h4{
+    position:absolute;
+    right:0px;
+    top:-33px;
+    border:1px solid black;
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    text-align: center;
+    font-family:sans-serif,arial;
+    font-size: 24px;
+
+  }
+
+   #p1,#p2,#p3{
+     /*margin-left:3px;*/
+    position:absolute;
+    left:2%;
+    top:10px;
+    width: 95%;
+    padding:10px;
+    font-family:monospace,verdana;
+    font-size:18px;
+   }
+
+
+} /*end of @media for mobile viewing*/
+
