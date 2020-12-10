@@ -1,51 +1,18 @@
-body {
-	font-size:16px;
-	color: #FFF;
-	background-color: #61122F;
-	font-family: oxygen, Sans-serif;
-
+.fa-1x {
+font-size: 1.5rem;
 }
-/** header**/
-
-# header.nav{
-	background-color: #Fb6b319;
-	border-radius:0;
-	border: 0; 
+.navbar-toggler.toggler-example {
+cursor: pointer;
 }
-
-.navbar-brand{
-	padding-top:25px;
+.dark-blue-text {
+color: #0A38F5;
 }
-
-.navbar.brand h1 { /** Resto name**/
-font-family: Lora,Serif;
-color: #557c3e;
-font.size:1.5cm;
-text-transform: uppercase;
-font-weight: bold;
-text.shadow: 1px 1px 1px #222;
-margin-top: 0;
-margin-bottom: 0;
-line-height:.75;
+.dark-pink-text {
+color: #AC003A;
 }
-
-#nav-list{
-	margin-top: 10px;
+.dark-amber-text {
+color: #ff6f00;
 }
-#nav-list a {
-	color: #951C49;
-	text-align: center;
+.dark-teal-text {
+color: #004d40;
 }
-@media (min.width:1200 px){
-	
-}
-
-}
-@media (min-width:992 px)and (max-width:1199){
-	
-}
-@media (min-width:768 px)and (max-width:991){
-	
-}
-@media (max-width:767){
-
