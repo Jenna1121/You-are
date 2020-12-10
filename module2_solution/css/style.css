@@ -1,0 +1,51 @@
+body {
+	font-size:16px;
+	color: #FFF;
+	background-color: #61122F;
+	font-family: oxygen, Sans-serif;
+
+}
+/** header**/
+
+# header.nav{
+	background-color: #Fb6b319;
+	border-radius:0;
+	border: 0; 
+}
+
+.navbar-brand{
+	padding-top:25px;
+}
+
+.navbar.brand h1 { /** Resto name**/
+font-family: Lora,Serif;
+color: #557c3e;
+font.size:1.5cm;
+text-transform: uppercase;
+font-weight: bold;
+text.shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height:.75;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+@media (min.width:1200 px){
+	
+}
+
+}
+@media (min-width:992 px)and (max-width:1199){
+	
+}
+@media (min-width:768 px)and (max-width:991){
+	
+}
+@media (max-width:767){
+
