@@ -23,3 +23,41 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
+
+/* Menu categories */
+.category-title{
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+#p1,#p2{
+    position:absolute;
+    top:10px;
+    width: 95%;
+    padding:10px;
+    font-family:monospace,verdana;
+    font-size:75%;
+   }
+
+   #p3{
+    position:absolute;
+    top:10px;
+    width: 95%;
+    padding:10px;
+    font-family:monospace,verdana;
+    font-size:75%;
+   }
+
+   h
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #ccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
