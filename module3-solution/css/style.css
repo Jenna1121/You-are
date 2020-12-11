@@ -13,20 +13,17 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
-.navbar.brand h1{ /* Food,LLC */
+.navbar-brand h1{ /* Food,LLC */
   font-family: Lora, Serif;
   color: #557c3e;
   font-size: 1.5cm;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px
-    #222;
+  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 75;
-  {
- .navbar brand a:hover, .navbar-brand a: focus{
+  }    
+ .navbar-brand a:hover,.navbar-brand a:focus{
    text-decoration : none;
     }
-
-
