@@ -24,6 +24,6 @@ body {
   margin-bottom: 0;
   line-height: 75;
   }    
- .navbar-brand a:hover,.navbar-brand a:focus{
+ .navbar.brand a:hover,.navbar-brand a:focus{
    text-decoration : none;
     }
