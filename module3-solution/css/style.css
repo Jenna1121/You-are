@@ -1,63 +1,98 @@
-body {
-  font-size: 16 px;
-  color: #fff;
-  background-color: #61122f;
-  ffont-family: 'Oxygen', sans-serif;
+.dropdown-menu{
+  position:static;
+  width:100%;
+  background-color: purple;
 }
 
-.navbar-brand {
-  padding-top: 25px;
+.dropdown-menu li>a{
+  color:white;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+#menudo{
+  font-family: lora, serif;
   color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+  text.shadow: 1px 1px 1px #222;
+
 }
 
 
-/* Menu categories */
-.category-title{
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
+.navbar-brand{
+  position: absolute;
+  left: 1%;
+  font-family: verdana,monospace;
+  font-size: 30px;
+  }
+
+
+  .container{
+        position:relative;
+        left: 0%;
+        top:10px;
+          align-self: center;
+      width: 100%;
+        height: 1500px;
+        align-content: center;
+      /*  background-color:orange; *//* to check the alignment for screen size*/
+
+  }
+
+  .menu1{
+    padding: 10px;
+    margin:1.5% 3% 1.5% 3%;
+    background-color: lightgray;
+
+  }
+
+  .menu1-title{
+  /*color:white;*/
+    font-weight: bold;
+    }
+
+
+  .menu1-text,.menu2-text,.menu3-text{
+    font-family: monospace;
+    margin-left: 10px;
+  }
+
+    .menu2{
+      padding: 10px;
+      margin:1.5% 3% 1.5% 3%;
+      background-color: lightgray;
+    }
+
+    .menu2-title{
+      /*color:white;*/
+      font-weight: bold;
+    }
+
+
+    .menu3{
+      padding: 10px;
+      margin:1.5% 3% 1.5% 3%;
+      background-color: lightgray;
+    }
+
+    .menu3-title{
+      /*color:white;*/
+      font-weight: bold;
+      }
+
+
+
+
+
+@media (max-width: 767px) {
+
 }
 
-#p1,#p2{
-    position:absolute;
-    top:10px;
-    width: 95%;
-    padding:10px;
-    font-family:monospace,verdana;
-    font-size:75%;
-   }
+@media (min-width: 768px) and (max-width: 991px) {
 
-   #p3{
-    position:absolute;
-    top:10px;
-    width: 95%;
-    padding:10px;
-    font-family:monospace,verdana;
-    font-size:75%;
-   }
 
-   h
-.category-tile:hover{
-  box-shadow: 0 1px 5px 1px #ccccc;
-}
+  }
 
-#menu-categories-title + div {
-  margin-bottom: 50px;
+
+@media (min-width: 992px) {
+
+
 }
